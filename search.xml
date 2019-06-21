@@ -3,6 +3,57 @@
     
     
     <entry>
+        <title><![CDATA[try]]></title>
+        <url>http://earthcry.xyz/2019/06/21/try/</url>
+        <content type="html"><![CDATA[<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><p>按照<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">教程</a>配置好自己的开发环境，然后<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">初始化</a>，Hexo则会在指定目录新建需要的文件。  该目录下的文件说明，可以在<a href="https://hexo.io/zh-cn/docs/setup.html" target="_blank" rel="noopener">官方文档</a>中看到，不再赘述。</p>
+<h3 id="新建主题"><a href="#新建主题" class="headerlink" title="新建主题"></a>新建主题</h3><p>在<code>themes</code>建立新的文件夹，命名为<code>ylion</code>，为了减少工作量，这里使用<code>generator-hexo-theme</code>和<code>yo</code>来帮我们自动生成需要的目录和文件，再根据我们的需求进行删减和添加。当然，手动建立也是可以的。</p>
+<p>首先是需要工具的安装：</p>
+]]></content>
+        
+        <categories>
+            
+            <category> Web - Hexo </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> 主题制作 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+        <title><![CDATA[test]]></title>
+        <url>http://earthcry.xyz/2019/06/21/test/</url>
+        <content type="html"><![CDATA[<h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><h3 id="为什么要造轮子"><a href="#为什么要造轮子" class="headerlink" title="为什么要造轮子"></a>为什么要造轮子</h3><p>利用寒假接近半个月来写了一个<a href="https://github.com/GeekaholicLin/hexo-theme-ylion" target="_blank" rel="noopener">主题</a>。为什么要造轮子？其实做这个Hexo主题的目的就是想学习更高级的用法，比如<code>less</code>，比如<code>ejs</code>，比如<code>CSS3</code>以及原生<code>Javascript</code>，也为了更好地沉淀。因为大半年的时间学习jQuery，处理IE的兼容，感觉越来越与前端的发展脱节…</p>
+<h3 id="为什么要写本教程"><a href="#为什么要写本教程" class="headerlink" title="为什么要写本教程"></a>为什么要写本教程</h3><p>在写ylion主题的时候，我也没想到会是如此艰辛。艰辛的不是技术使用方面，艰辛的是<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a>。当你写过主题就知道官方的API写的多么的含糊不清(摔！)，而要命的是，这方面的介绍少之又少(也可能是我搜索的姿势不对…)。所以，为了方便后来造轮子者有个参考，也为了温习制作主题时利用到的知识，写下本教程，本教程以ylion主题为例，<strong>水平有限，如有纰漏，还望指出~</strong></p>
+]]></content>
+        
+        <categories>
+            
+            <category> Web </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Ylion </tag>
+            
+            <tag> 主题制作 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
         <title><![CDATA[Hello World]]></title>
         <url>http://earthcry.xyz/2019/06/21/hello-world/</url>
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>

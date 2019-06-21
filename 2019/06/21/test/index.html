@@ -20,7 +20,7 @@
 <meta name="verify" content="all">
     <!--Title-->
 
-<title>Archives | EarthCry</title>
+<title>test | EarthCry</title>
 
 <link rel="alternate" href="/atom.xml" title="EarthCry" type="application/atom+xml">
 
@@ -29,9 +29,10 @@
 
     
 <link rel="stylesheet" href="/css/base.css">
-<link rel="stylesheet" href="/css/pages/archive.css">
+<link rel="stylesheet" href="/css/pages/post.css">
 <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/thirdParty/highlight/github.css">
+<link rel="stylesheet" href="/css/pages/comments.css">
 
     <!--script-->
 
@@ -41,6 +42,23 @@
 
 <!--<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>-->
 
+
+<script src="/js/thirdParty/gitment.browser.min.js"></script>
+<script>
+  var labels = "blog,gitment";
+  labels = labels.split(",");
+  var gitment = new Gitment({
+    id: window.location.pathname,
+    owner: "GeekaholicLin",
+    repo: "geekaholiclin.github.io",
+    oauth: {
+      client_id: "aa2215dfc8ee944d1205",
+      client_secret: "77cd2afa5d161bc0ab04639ed81300d808c6e22b"
+    },
+    perPage: "20",
+    labels: labels
+  });
+</script>
 
     
     
@@ -145,54 +163,16 @@ title="fork me" target="_blank">Geekaholic</a></p>
 </ul>
 
 
-        
-<div id="main">
-  <div id="post-list">
-    <ul class="archives-post-list">
-        
-      <li class="post-items" _href="/2019/06/21/try/">
-        <p class="info">2019</p>
-        <h2 class="post-item-title">try</h2>
-          <div class="article-meta">
-    
-    
-    <span class="categories-meta fa-wrap">
-            <i class="fa fa-folder-open-o"></i>
-        <span>Web - Hexo</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-         <i class="fa fa-tags"></i>
-        <span class="tags-meta">
-            
-            Hexo
-            
-        </span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-        <i class="fa fa-clock-o"></i>
-        <span class="date-meta ">06/21</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-            <i class="fa fa-thermometer-three-quarters"></i>
-        <span class="hits hits-meta " data-leadcloud-title="try"
-              data-leadcloud-url="/2019/06/21/try/"><i class="fa fa-spinner fa-spin"></i></span>
-    </span>
-    
-    
-</div>
+        <div id="main">
+    <article id="post">
+        <div id="post-header">
 
-      </li>
-        
-      <li class="post-items" _href="/2019/06/21/test/">
-        <p class="info">2019</p>
-        <h2 class="post-item-title">test</h2>
-          <div class="article-meta">
+            <h1 id="test">
+                
+                test
+                
+            </h1>
+            <div class="article-meta">
     
     
     <span class="categories-meta fa-wrap">
@@ -213,7 +193,7 @@ title="fork me" target="_blank">Geekaholic</a></p>
     
     <span class="fa-wrap">
         <i class="fa fa-clock-o"></i>
-        <span class="date-meta ">06/21</span>
+        <span class="date-meta ">2019/06/21</span>
     </span>
     
     
@@ -226,51 +206,93 @@ title="fork me" target="_blank">Geekaholic</a></p>
     
 </div>
 
-      </li>
+            
+            
+        </div>
         
-      <li class="post-items" _href="/2019/06/21/hello-world/">
-        <p class="info">2019</p>
-        <h2 class="post-item-title">Hello World</h2>
-          <div class="article-meta">
+        <div id="post-body">
+            <h2 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h2><h3 id="为什么要造轮子"><a href="#为什么要造轮子" class="headerlink" title="为什么要造轮子"></a>为什么要造轮子</h3><p>利用寒假接近半个月来写了一个<a href="https://github.com/GeekaholicLin/hexo-theme-ylion" target="_blank" rel="noopener">主题</a>。为什么要造轮子？其实做这个Hexo主题的目的就是想学习更高级的用法，比如<code>less</code>，比如<code>ejs</code>，比如<code>CSS3</code>以及原生<code>Javascript</code>，也为了更好地沉淀。因为大半年的时间学习jQuery，处理IE的兼容，感觉越来越与前端的发展脱节…</p>
+<h3 id="为什么要写本教程"><a href="#为什么要写本教程" class="headerlink" title="为什么要写本教程"></a>为什么要写本教程</h3><p>在写ylion主题的时候，我也没想到会是如此艰辛。艰辛的不是技术使用方面，艰辛的是<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a>。当你写过主题就知道官方的API写的多么的含糊不清(摔！)，而要命的是，这方面的介绍少之又少(也可能是我搜索的姿势不对…)。所以，为了方便后来造轮子者有个参考，也为了温习制作主题时利用到的知识，写下本教程，本教程以ylion主题为例，<strong>水平有限，如有纰漏，还望指出~</strong></p>
+
+        </div>
+        <div id="post-footer">
+            <div class="avatar" >
+                <img src="http://example.com/author.jpg" alt="avatar"/>
+                
+                <a href="javascript:void(0)" class="high-song">high起来 &#128541;</a>
+                
+                
+                <a href="javascript:void(0)" class="donate fa">赠我一杯 &#128536;</a>
+                
+            </div>
+            <ul class="author-profile-section">
+                <li>
+                  
+                  Author:
+                  
+                    
+                    <a href="/about.html">Phil</a>
+                </li>
+                
+                <li>Published Date: <span>2019-06-21  16:58:00</span></li>
+                
+                <li>Updated Date: <span>2019-06-21  17:03:34</span></li>
+                
+                <li class="post-category">
+                    Categories:
+                    
+                    <a href="/categories/Web/">Web</a>
+                    
+                </li>
+                <li class="post-tags">
+                    Tags:
+                    
+                    <a href="/tags/Hexo/">Hexo</a>
+                    
+                    <a href="/tags/Ylion/">Ylion</a>
+                    
+                    <a href="/tags/主题制作/">主题制作</a>
+                    
+                </li>
+                
+                <li> License: <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">
+知识共享署名-非商业性使用-禁止演绎 3.0 未本地化版本许可协议（CC BY-NC-ND 3.0）
+</a></li>
+                
+            </ul>
+            <div id="donate-wrap">
+                
+                
+                
+                <img src="http://example.com/alipay.jpg" alt="支付宝付款" class="donate-img">
+                
+                <img src="http://example.com/wechat.png" alt="微信付款" class="donate-img">
+                
+                
+            </div>
+        </div>
+    </article>
+    <div class="article-nav">
+        
+        <a href="/2019/06/21/try/" class="pre-post fa fa-caret-left">try</a>
+        
+        
+        <a href="/2019/06/21/hello-world/" class="next-post fa">Hello World</a>
+        
+    </div>
     
-    
-    <span class="categories-meta fa-wrap">
-            <i class="fa fa-folder-open-o"></i>
-        <span>null</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-         <i class="fa fa-tags"></i>
-        <span class="tags-meta">
-            
-            null
-            
-        </span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-        <i class="fa fa-clock-o"></i>
-        <span class="date-meta ">06/21</span>
-    </span>
-    
-    
-    <span class="fa-wrap">
-            <i class="fa fa-thermometer-three-quarters"></i>
-        <span class="hits hits-meta " data-leadcloud-title="Hello World"
-              data-leadcloud-url="/2019/06/21/hello-world/"><i class="fa fa-spinner fa-spin"></i></span>
-    </span>
-    
+    <div id="comments">
+        
+
+<script>
+  gitment.render(document.getElementById("comments"));
+</script>
+
+
+
+    </div>
     
 </div>
-
-      </li>
-        
-    </ul>
-  </div>
-</div>
-
 
 
     </div>
@@ -307,8 +329,14 @@ title="fork me" target="_blank">Geekaholic</a></p>
     <li class="totop-btn fa fa-angle-up"></li>
     <li class="exchange-btn fa fa-exchange"></li>
   
+    <li class="toc-btn fa fa-list-ul"></li>
+    
     
 
+    
+    <li class="comment-btn fa fa-comments-o">
+        <a href="#comments" title="comments"></a>
+    </li>
     
 </ul>
 <p id="process"></p>
@@ -326,6 +354,8 @@ title="fork me" target="_blank">Geekaholic</a></p>
         </div>
     </div>
 </div>
+
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#关于"><span class="toc-number">1.</span> <span class="toc-text">关于</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么要造轮子"><span class="toc-number">1.1.</span> <span class="toc-text">为什么要造轮子</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么要写本教程"><span class="toc-number">1.2.</span> <span class="toc-text">为什么要写本教程</span></a></li></ol></li></ol>
 
 
     <script src="/js/highsong.js"></script>
